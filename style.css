@@ -1,0 +1,154 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+</style>
+
+/* font style above */
+
+
+body{
+color: #555;
+margin: 0;
+font-family: 'Montserrat', sans-serif;
+}
+
+#header{
+  background-color: #1abc9c;
+  height: 150px;
+  line-height: 150px;
+}
+
+#header-title{
+  display: block;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#header a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1em;
+}
+
+#header a:hover {
+  color: #222;
+}
+
+#header-nav{
+  display: block;
+  float: right;
+  margin-top: 0;
+}
+
+#header-nav li{
+  display: inline;
+  padding-left: 20px;
+  }
+
+  container{
+    max-width: 1000px;
+    margin: o auto;
+  }
+
+  /* end of header section. section is styled but the links to 'About' and 'Contact' have disappeared so need to find a way to make them come back to the header and be placed on the right hand sife of the web page */
+
+  /*content section styling beginning*/
+
+  .post{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+  }
+
+  /* about me page styling beginning*/
+
+.post, .about{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+  text-align: center; /* Mimo bronze challenge. Correct code */
+}
+
+
+
+  /* about me page styling end*/
+
+  .post-author img{
+    width: 150px;
+    height: 150px;
+    vertical-align: middle;
+    /* Mimo silver challenge wrong answer. my answer was 'border-radius: 50%;', which was the correct code, however it needs to be placed in its own class, the class is shown below. */
+    }
+
+    .post-author img, .about-author img {
+      border-radius: 50%;
+    }
+
+  .post-author span{
+    margin-left: 160px;
+  }
+
+  /* Picture element sizing with the '.post-author' review later */
+
+.post-container:nth-child(even){
+  background-color: #f2f2f2;
+}
+/*nth-child container. I have no idea what an nth-child is so another thing to read up on. Relates to gold challenfe note in index.html, (i flopped it btw, but the challenge was make the background color of rows with posts alternate between white and a light gray). Nth-child is a pseudo class, dunno what that is either so read up on that too.*/
+
+.post-date{
+color: #D2D2D2;
+font-size: 14px;
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+}
+
+h1, h2, h3, h4{
+  color: #333;
+}
+
+p{
+  line-height: 1.5;
+}
+
+
+
+
+
+
+/* beginning of footer section */
+
+  #footer{
+background-color: #2f2f2f;
+    padding: 50px 0;
+  }
+
+  .column{
+    min-width: 300px;
+    display: inlne-block;
+    vertical-align: top;
+    }
+
+    #footer h4{
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    #footer p{
+      color: white;
+
+    }
+
+    a{
+      color: #1abc9c;
+      text-declaration: none;
+      text-align: right;
+    }
+
+    a hover{
+      color: #F6A623;
+    }
+
+    /* Footer complete but far from perfect. Need to move the links to the right hand side of the page. Tried using 'text-align' property buut it moved everything including the 'Im an aspiring web developer part. need to do some more reading on positioning elements.'*/
